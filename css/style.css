@@ -1,0 +1,47 @@
+body {
+    background-color: #CCC;
+    font-family: "RobotoRegular";
+}
+
+.top_line_menu {
+    background-image: url(../img/background.jpg);
+    height: 200px;
+}
+
+.top_line_menu a {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 5px;
+}
+
+.top_line_left_menu a {
+    float: left;
+}
+
+.top_line_right_menu a {
+    float: right;
+}
+
+.div_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_span span {
+    font-family: "RobotoRegular";
+}
+
+.col_span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_cl {
+    background-color: #006;
+    margin: 0;
+    padding: 0;
+}
