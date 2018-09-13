@@ -16,13 +16,13 @@ body {
     margin: 5px;
 }
 
-.top_line_left_menu a {
+/* .top_line_left_menu a {
     float: left;
-}
+} */
 
-.top_line_right_menu a {
+/* .top_line_right_menu a {
     float: right;
-}
+} */
 
 .div_img {
     display: flex;
@@ -44,4 +44,9 @@ body {
     background-color: #006;
     margin: 0;
     padding: 0;
+}
+
+
+.s_border {
+    border: 1px solid black;
 }
