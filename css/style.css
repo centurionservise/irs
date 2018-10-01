@@ -1,14 +1,22 @@
-body {
+* {
+   transition: all 0.5s; 
+}
+
+body{
     background-color: #CCC;
     font-family: "RobotoRegular";
 }
-
-.top_line_menu {
+/*
+*******************************************************************
+ */
+.top_line_menu{
+/*    background-color: #15E;*/
     background-image: url(../img/background.jpg);
     height: 200px;
-}
+/*    Border-radius: 10px;*/
 
-.top_line_menu a {
+}
+.top_line_menu a{
     margin: 0;
     padding: 0;
     color: #fff;
@@ -16,32 +24,75 @@ body {
     margin: 5px;
 }
 
-.top_line_left_menu a {
+.top_line_left_menu{
+/*    border-right: 2px solid white;*/
+
+}
+.top_line_left_menu a{
     float: left;
 }
 
-.top_line_right_menu a {
+.top_line_right_menu a{
     float: right;
 }
 
-.div_img {
+
+.brd1px{
+    /* border: 1px solid black; */
+}
+/**
+ ********************************************************************
+ */
+.div_img{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+.div_img img:hover{
+    /* background-color: transparent; */
+   box-shadow: 10px 10px 5px #888;
+}
+
+
 
 .div_span span {
     font-family: "RobotoRegular";
+    
+    
 }
 
+
+
+/********************* Second way how move img to centre/centre */
+
+/* 
+.div_img img {
+display: block;
+margin: 0 auto;
+    
+}
+ */
+/********************* Second way how move img to centre/centre */
+
+
 .col_span {
-    display: flex;
+ display: flex;
     align-items: center;
     justify-content: center;
+     
+}
+
+#logo_id {
+/*    position: absolute;*/
+/*    top: 50px;*/
+/*    display: ;*/
+/*    background-color: #006;*/
 }
 
 .logo_cl {
     background-color: #006;
     margin: 0;
     padding: 0;
+
 }
