@@ -1,62 +1,17 @@
-* {
-    transition: all 0.5s;
-}
-
 body {
     background-color: #CCC;
     font-family: "RobotoRegular";
 }
 
-.top_line_menu {
-    background-image: url(../img/background.jpg);
-    height: 200px;
-}
+.fill-viewport {
+    min-height: 100vh 
+  }
 
-.top_line_menu a {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 1.3em;
-    margin: 5px;
-}
+  .bds {
+      border: 2px solid greenyellow;
+  }
 
-.top_line_left_menu a {
-    float: left;
-}
-
-.top_line_right_menu a {
-    float: right;
-}
-
-
-.div_img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.div_img img:hover {
-    box-shadow: 10px 10px 5px #888;
-}
-
-.div_span span {
-    font-family: "RobotoRegular";
-}
-
-.col_span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.logo_cl {
-    background-color: #006;
-    margin: 0;
-    padding: 0;
-
-}
-
-.cl_footer{
-    
-}
+  #logo_id{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
